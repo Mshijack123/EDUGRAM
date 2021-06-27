@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+
+      .mobile{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100vh;
+      }
+
+     .title{
+          padding: 23px;
+         h1{
+             text-align: center;
+             font-size: 25px;
+
+         }
+     }
+
+    .btn{
+        width: 80%;
+        padding: 12px;
+        background: #6159E5;
+        border-radius: 15px;
+        border: transparent;
+        color: white;
+        font-weight: bold;
+    }
+   
+        
+  }
